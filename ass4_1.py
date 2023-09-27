@@ -18,6 +18,5 @@ def grade(score):
 try:
     score = int(input('Enter the number: '))
     mark = grade(score)
-    print(mark)
 except ValueError:
     print("Error, please enter numeric input between 0 and 100")
